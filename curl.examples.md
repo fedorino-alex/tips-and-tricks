@@ -1,4 +1,4 @@
-1. Multipart form request with uploading files and specifying content-types for parts:
+1. PUT/POST Multipart form request with uploading files and specifying different content-types for parts:
 ```bash
 curl \
     --verbose \

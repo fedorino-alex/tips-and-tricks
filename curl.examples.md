@@ -1,4 +1,5 @@
-1. PUT/POST Multipart form request with uploading files and specifying different content-types for parts:
+### 1. PUT/POST Multipart form request with uploading files and specifying different content-types for parts:
+
 ```bash
 curl \
     --verbose \
@@ -11,7 +12,8 @@ curl \
     --form 'Document=@1gb.txt;type=text/plain'>response-body.txt
 ```
 
-2. HEAD request with viewing response headers:
+### 2. HEAD request with viewing response headers:
+
 ```bash
 curl -I -X HEAD http://your-url.com
 ```
